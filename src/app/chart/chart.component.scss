@@ -1,0 +1,18 @@
+:host {
+  .chart {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+
+    h2 {
+      display: inline-block;
+    }
+
+    .reset {
+      float: right;
+    }
+  }
+}

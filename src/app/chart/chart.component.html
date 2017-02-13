@@ -1,0 +1,8 @@
+<div class="chart">
+  <div>
+    <h2>Chart</h2>
+    <button class="reset" (click)="reset()">Reset</button>
+  </div>
+  <chart-list [list]="list | async"
+              (delete)="delete($event)"></chart-list>
+</div>

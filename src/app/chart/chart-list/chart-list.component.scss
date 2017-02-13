@@ -1,0 +1,19 @@
+:host {
+  .chart-list {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 300px;
+
+    .item {
+      display: inline-flex;
+      margin: 5px 10px;
+
+      .title {
+        text-align: left;
+        padding: 6px;
+      }
+    }
+  }
+}

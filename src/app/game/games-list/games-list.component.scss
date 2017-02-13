@@ -1,0 +1,17 @@
+:host {
+  .games-list {
+    .game {
+      display: inline-block;
+      margin: 0 10px;
+      cursor: pointer;
+      text-align: center;
+
+      &:hover {
+        .circle {
+          box-sizing: border-box;
+          border: 2px solid red;
+        }
+      }
+    }
+  }
+}

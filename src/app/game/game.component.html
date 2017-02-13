@@ -1,0 +1,4 @@
+<games-list [games]="games"
+            (viewDetail)="viewDetail($event)"
+            (add)="addGame($event)"></games-list>
+<game-detail [game]="selectedGame"></game-detail>

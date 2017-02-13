@@ -1,0 +1,9 @@
+<div class="chart-list">
+  <div class="item" *ngFor="let item of list">
+    <img class="circle" width="50" height="50" src="{{item.image}}"/>
+    <div class="title">
+      <div>{{item.name}}</div>
+      <button (click)="delete.emit(item); $event.stopPropagation();">Delete</button>
+    </div>
+  </div>
+</div>
